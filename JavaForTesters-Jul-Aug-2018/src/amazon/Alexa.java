@@ -17,8 +17,9 @@ public class Alexa{
 	}
 	
 
-	public void whatIsYourName() {
+	public String whatIsYourName() {
 		System.out.println("My name is "+name);
+		return name;
 	}
 	
 	public void changeYourName(String n) {
@@ -41,6 +42,18 @@ public class Alexa{
 		ownerName=n;
 	}
 	
+	
+	
+	public double convertFeetIntoIches(double feet) {
+		double calculation = feet * 12;		
+		System.out.println( calculation+ " inches");
+		return calculation;
+	}
+	
+	public void convertInchIntoFeet(double inch) {
+		System.out.println((inch / 12) + " feet");
+	}
+
 
 	
 

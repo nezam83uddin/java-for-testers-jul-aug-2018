@@ -6,10 +6,24 @@ public class OperatorsDemo {
 
 	public static void main(String[] args) {
 		
+		
+			
+				
+			
+		
+		
+				
 			//  Assignment operator [=] 
 			String name = "rk reja";
 			int i=100;
 			boolean b=true;
+			
+			
+			
+			
+			
+			
+			
 			Alexa myalexa  = new Alexa();
 			
 			
