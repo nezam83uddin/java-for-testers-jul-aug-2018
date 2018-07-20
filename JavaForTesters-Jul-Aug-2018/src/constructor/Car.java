@@ -23,9 +23,17 @@ private String make;
 		color=newColor;
 	}
 	
+	public void setAwd(boolean b) {
+		awd=b;
+	}
+	public boolean getAwd(){
+		return awd;
+	}
+	
+	
 	
 	public void drive() {
-		System.out.println("You are driving "+color+" "+make+" "+model+" with horse power "+hp);
+		System.out.println("You are driving "+color+" "+make+" "+model + " with AWD :"+ awd+" with horse power "+hp);
 	}
 	
 
